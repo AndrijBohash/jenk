@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 public class LoginTest extends BasicTestCase{
 
     private boolean acceptNextAlert = true;
-    private LoginPage loginPage= PageFactory.initElements(getWebDriver(),LoginPage.class);
+    private LoginPage loginPage= PageFactory.initElements(getWebDriver(), LoginPage.class);
 
     private TimelinePage timelinePage;
     @Test
