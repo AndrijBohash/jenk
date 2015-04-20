@@ -25,6 +25,9 @@
         <module name="SherishTest" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="SherishTest" target="1.7" />
+    </bytecodeTargetLevel>
   </component>
 </project>
 
