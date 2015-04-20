@@ -12,7 +12,17 @@ public class LoginTest extends BasicTestCase{
 
     private TimelinePage timelinePage;
     @Test
-    public void testUntitled() throws Exception {
+    public void login1() throws Exception {
+        // ERROR: Caught exception [ERROR: Unsupported command [selectWindow | null | ]]
+
+        loginPage.open();
+
+        timelinePage=loginPage.loginAs(user1);
+
+    }
+
+    @Test
+    public void login2() throws Exception {
         // ERROR: Caught exception [ERROR: Unsupported command [selectWindow | null | ]]
 
         loginPage.open();
